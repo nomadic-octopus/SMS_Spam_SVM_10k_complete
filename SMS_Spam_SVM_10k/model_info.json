@@ -1,0 +1,41 @@
+{
+  "csv_sha256": "c3ad552c72ee46c66449cfc137765c7849facf28f9a52218944aba2a60ceb1a3",
+  "scikit_learn_version": "1.8.0",
+  "dataset_count": 10000,
+  "dataset_class_counts": {
+    "ham": 5000,
+    "spam": 5000
+  },
+  "train_count": 8968,
+  "real_test_count": 1032,
+  "real_test_class_counts": {
+    "ham": 904,
+    "spam": 128
+  },
+  "train_source_counts": {
+    "synthetic": 4843,
+    "original": 4125
+  },
+  "best_params": {
+    "svm__C": 1.0
+  },
+  "cv_grouped_macro_f1": 0.9906872809104668,
+  "test_real_metrics": {
+    "accuracy": 0.9922480620155039,
+    "precision_spam": 0.9838709677419355,
+    "recall_spam": 0.953125,
+    "f1_spam": 0.9682539682539683,
+    "f1_macro": 0.9819194786082204
+  },
+  "test_confusion_matrix_ham_spam": [
+    [
+      902,
+      2
+    ],
+    [
+      6,
+      122
+    ]
+  ],
+  "evaluation_note": "Test set contains held-out original SMS only; synthetic messages are used for training only."
+}
